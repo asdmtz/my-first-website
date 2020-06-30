@@ -1,8 +1,50 @@
 body {
-    background-color: bisque;
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+h1 {
+    font-size: 50px;
+} 
+
+h2 {
+    font-size: 40px;
 }
 
-.iphone {
-    width: 200px;
-    height: auto;
+.font-color {
+    color: orange;
 }
+
+section {
+    height: 500px;
+}
+
+.half-width {
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.link-button {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: wheat;
+    padding: 10px 40px;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    border-radius: 5px;
+    }
+
+    .top-banner {
+        background-image: url("images/top-banner.png");
+        background-repeat: no-repeat;
+    }
+
+    .half-width h4 {
+        color: orange;
+    }
